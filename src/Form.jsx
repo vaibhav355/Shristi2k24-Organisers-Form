@@ -87,7 +87,7 @@ const Form = () => {
               </div>
 
               <div className="form-group">
-                <label htmlFor="group">Group:</label>
+                <label htmlFor="group">Club:</label>
                 <input
                   type="text"
                   name="  "
