@@ -4,7 +4,7 @@
 .form-div {
     display: flex;
     justify-content: center;
-    width: 90vw;
+    width: 95vw;
     flex-direction: column;
     /* height: 90vh; */
 }
@@ -44,14 +44,6 @@
     margin-bottom: 15px;
   }
 
-  /* #group {
-    height: 43px;
-    width: 98%;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    color: gray
-  } */
-  
   /* Label Styling */
   label {
     display: block;

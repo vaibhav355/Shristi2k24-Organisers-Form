@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Form.css"; // Import your CSS file for styling
 
 import { prodUrl } from "./config";
-import clubs from "./data";
 
 
 const Form = () => {
@@ -15,13 +14,13 @@ const Form = () => {
 
     const formData = new FormData();
     formData.append("name", e.target.name.value);
-    formData.append("image", e.target.pic.files[0]);
+    formData.append("file", e.target.pic.files[0]);
     formData.append("regNo", e.target.regno.value);
     formData.append("group", e.target.group.value);
     formData.append("position", e.target.position.value);
 
     setLoading(true);
-    fetch(prodUrl + "/organiser", {
+    fetch(prodUrl + "/organisers", {
       method: "POST",
       body: formData,
     })
@@ -97,13 +96,6 @@ const Form = () => {
                   autoComplete="off"
                   required
                 />
-                {/* <select name="group" id="group" required>
-                  {clubs.map((club, index) => {
-                    return(
-                      <option key={index} value={club.name}>{club.name}</option>
-                    )
-                  })}
-                </select> */}
               </div>
 
               <div className="form-group">
