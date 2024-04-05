@@ -26,7 +26,9 @@ const Form = () => {
     })
       .then((response) => {
         setLoading(false);
-        console.log(response);
+        alert("Successifully uploaded!");
+        console.log(response)
+        e.target.reset()
       })
       .catch((error) => {
         setLoading(false);
