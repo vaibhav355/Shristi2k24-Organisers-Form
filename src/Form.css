@@ -1,0 +1,92 @@
+/* Form Container */
+/* Form Container */
+
+.form-div {
+    display: flex;
+    justify-content: center;
+    width: 90vw;
+    height: 90vh;
+}
+.form-container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Optional: If you want the form to take up the full viewport height */
+  }
+  
+  
+  /* Form Heading */
+  .form-heading {
+    text-align: center;
+    font-family: Roboto;
+    font-weight: bold;
+  }
+  
+  /* Card Styling */
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Card Content */
+  .card-content {
+    margin-top: 10px;
+  }
+  
+  /* Form Group */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* Label Styling */
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Input Styling */
+  input[type="text"],
+  input[type="file"] {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Submit Button Styling */
+  .submit-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Backdrop Styling */
+  .backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Loader Styling */
+  .loader {
+    color: #fff;
+  }
+  
