@@ -5,7 +5,8 @@
     display: flex;
     justify-content: center;
     width: 90vw;
-    height: 90vh;
+    flex-direction: column;
+    /* height: 90vh; */
 }
 .form-container {
     max-width: 450px;
@@ -14,7 +15,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Optional: If you want the form to take up the full viewport height */
+    /* height: 100vh; Optional: If you want the form to take up the full viewport height */
   }
   
   
@@ -23,6 +24,7 @@
     text-align: center;
     font-family: Roboto;
     font-weight: bold;
+    margin: 0;
   }
   
   /* Card Styling */
@@ -41,6 +43,14 @@
   .form-group {
     margin-bottom: 15px;
   }
+
+  /* #group {
+    height: 43px;
+    width: 98%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: gray
+  } */
   
   /* Label Styling */
   label {
